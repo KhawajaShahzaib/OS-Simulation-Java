@@ -11,9 +11,11 @@ You can see the Ready Queue as soon as you create a process.
 
 ## Scheduling
 There are two types of scheduling algorithms I used. The default one is FCFS (First Come-First-Serve) and the second one is Round-Robin (remember to set the quantum time for RR). When you run a process, based on the scheduling selected, you will see how it affects the ready queue and Gantt Chart. There are other options like Suspend and Block where the process goes into the blocked Queue. To run the created process, just click on Dispatch.
+![Processes Screenshot](ProcessScheduling.png)
 
 ## Memory Management
 I have implemented LRU (Least Recently Used) only in this project. You can either pass on your pages of processes, created in scheduling, to the memory, or you can just use the Create_page and set the page size. You can try an example here: 4, 7, 6, 1, 7, 6, 1, 2, 7, 2.
+![LRU Output](LRU.png)
 
 ## IDE Used
 I made this in Eclipse IDE.
